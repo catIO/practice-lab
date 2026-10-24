@@ -10,27 +10,27 @@ const Footer = ({ onPageChange }: FooterProps) => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Brand */}
         <div className="flex items-center space-x-3">
-          <Music className="h-6 w-6 text-purple-400" />
+          <Music className="h-6 w-6 text-[#DCAA89]" aria-hidden="true" />
           <span className="text-white font-bold tracking-wider">PRACTICE LAB</span>
         </div>
 
         {/* Links */}
-        <div className="flex flex-wrap justify-center items-center gap-6 text-sm text-gray-400">
+        <div className="flex flex-wrap justify-center items-center gap-6 text-sm text-[#BFB9B5]">
           <button 
             onClick={() => onPageChange('home')}
-            className="hover:text-white transition-colors duration-200"
+            className="hover:text-white transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#DCAA89] rounded px-1"
           >
             Apps
           </button>
           <button 
             onClick={() => onPageChange('about')}
-            className="hover:text-white transition-colors duration-200"
+            className="hover:text-white transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#DCAA89] rounded px-1"
           >
             About
           </button>
           <a 
             href="/privacy.html"
-            className="hover:text-white transition-colors duration-200 font-medium text-purple-400 hover:text-purple-300"
+            className="hover:text-[#F3D7C3] transition-colors duration-200 font-medium text-[#DCAA89] underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#DCAA89] rounded px-1"
           >
             Privacy Policy
           </a>

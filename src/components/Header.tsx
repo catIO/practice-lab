@@ -13,30 +13,30 @@ const Header = ({ onPageChange, currentPage }: HeaderProps) => {
         <div className="hidden md:flex items-center space-x-8">
           <button 
             onClick={() => onPageChange('home')}
-            className={`transition-colors duration-200 ${
+            className={`transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#DCAA89] rounded px-2 py-1 ${
               currentPage === 'home' 
-                ? 'text-white' 
-                : 'text-gray-300 hover:text-white'
+                ? 'text-[#DCAA89] font-medium' 
+                : 'text-[#BFB9B5] hover:text-white'
             }`}
           >
             Apps
           </button>
           <button 
             onClick={() => onPageChange('about')}
-            className={`transition-colors duration-200 ${
+            className={`transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#DCAA89] rounded px-2 py-1 ${
               currentPage === 'about' 
-                ? 'text-white' 
-                : 'text-gray-300 hover:text-white'
+                ? 'text-[#DCAA89] font-medium' 
+                : 'text-[#BFB9B5] hover:text-white'
             }`}
           >
             About
           </button>
           <a 
             href="/privacy.html"
-            className={`transition-colors duration-200 ${
+            className={`transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#DCAA89] rounded px-2 py-1 ${
               currentPage === 'privacy' 
-                ? 'text-white' 
-                : 'text-gray-300 hover:text-white'
+                ? 'text-[#DCAA89] font-medium' 
+                : 'text-[#BFB9B5] hover:text-white'
             }`}
           >
             Privacy
