@@ -48,7 +48,7 @@ const AppGrid = () => {
         "Share practice summaries with a teacher",
         "Keeps your screen awake during a session"
       ],
-      url: "https://timer.practice-mate.app/"
+      url: "https://practice-mate.app/"
     },
     {
       title: "Score Tone",

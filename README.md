@@ -5,7 +5,7 @@ A suite of focused web tools for musicians, hosted at [practice-lab.net](https:/
 ## Included Tools
 
 - **Bright Sight** – Sight-reading practice for classical guitar ([bright-sight.app](https://bright-sight.app/))
-- **Practice Mate** – Practice session timer and repertoire planner ([timer.practice-mate.app](https://timer.practice-mate.app/))
+- **Practice Mate** – Practice session timer and repertoire planner ([practice-mate.app](https://practice-mate.app/))
 - **Score Tone** – Sheet music reader designed for practice and performance ([score.practice-mate.app](https://score.practice-mate.app/))
 - **Practice Mirror** – Video practice mirror with recording and YouTube upload ([mirror.practice-mate.app](https://mirror.practice-mate.app/))
 - **Spot Practice** – Methodical practice for difficult passages in MusicXML ([spot.practice-mate.app](https://spot.practice-mate.app/))
